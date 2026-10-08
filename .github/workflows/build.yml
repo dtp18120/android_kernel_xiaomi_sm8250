@@ -9,9 +9,10 @@ on:
       device:
         description: 'Target Device Code (设备代号)'
         required: true
-        default: 'alioth'
+        default: 'munch'
         type: choice
         options:
+          - munch
           - alioth
           - lmi
       ksu:
